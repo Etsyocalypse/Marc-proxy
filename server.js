@@ -16,5 +16,5 @@ http.createServer((req, res) => {
     tailor.requestHandler(req, res)
   })
   .listen(process.env.PORT || 8181, function() {
-    console.log(`Tailor server listening on port ${pprocess.env.PORT || 8181}`)
+    console.log(`Tailor server listening on port ${process.env.PORT || 8181}`)
   });
