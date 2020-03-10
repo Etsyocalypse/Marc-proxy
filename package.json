@@ -16,7 +16,7 @@
     "url": "https://github.com/BigMarco254/Marc-proxy/issues"
   },
   "homepage": "https://github.com/BigMarco254/Marc-proxy#readme",
-  "devDependencies": {
+  "dependencies": {
     "babel-eslint": "^8.0.2",
     "eslint": "^4.11.0",
     "eslint-import-resolver-webpack": "^0.8.3",
