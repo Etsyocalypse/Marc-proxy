@@ -1,20 +1,7 @@
-const http = require('http')
-const Tailor = require('node-tailor')
-const tailor = new Tailor({
-  templatesPath: __dirname + '/templates'
-})
+const express = require('express');
+const path = require('path');
+const app = express();
 
-http.createServer((req, res) => {
-    if (req.url === '/favicon.ico') {
-      res.writeHead(200, { 'Content-Type': 'image/x-icon' })
-      return res.end('')
-    }
+app.use(express.static(path.join(__dirname, 'public')));
 
-    req.headers['x-request-uri'] = req.url
-    req.url = '/index'
-
-    tailor.requestHandler(req, res)
-  })
-  .listen(process.env.PORT || 8181, function() {
-    console.log(`Tailor server listening on port ${process.env.PORT || 8181}`)
-  });
+app.listen(80, () => console.log("Proxy server is running on port 80"));
