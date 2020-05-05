@@ -12,7 +12,7 @@ A team of us software engineers tasked with recreating a duplicate version of Et
 
 - [Demo](#demo)
 - [Stack](#stack)
-- [Work Flow and Ticketing](#work-flow-and-ticketing)
+- [Ticketing](#ticketing)
 - [Component Breakdown](#component-breakdown)
 - [Contributors](#contributors)
 
@@ -55,14 +55,7 @@ A team of us software engineers tasked with recreating a duplicate version of Et
     
 </table>
 
-# Work Flow and Ticketing
-
-## Work Flow
-
-We followed a Git workflow to ensure work is accomplished in a consistent and productive manner.
-![](https://thumbs.gfycat.com/VelvetyExcitableHoopoe-size_restricted.gif)
-
-## Ticketing
+#Ticketing
 
 For ticketing and allocation of work, we followed an agile methodology. We created tickets in Trello with four basic states:
 
