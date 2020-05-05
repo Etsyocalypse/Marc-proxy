@@ -55,7 +55,7 @@ A team of us software engineers tasked with recreating a duplicate version of Et
     
 </table>
 
-#Ticketing
+# Ticketing
 
 For ticketing and allocation of work, we followed an agile methodology. We created tickets in Trello with four basic states:
 
